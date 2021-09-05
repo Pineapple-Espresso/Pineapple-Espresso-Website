@@ -1,0 +1,70 @@
+body {
+    color: white;
+    background-color: black
+}
+header {
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+#logo {
+    margin: auto;
+    height: auto;
+    max-width: 25%;
+}
+#headline {
+    text-align: center;
+    font-size:9ex;
+    margin: auto;
+    max-width: 100%;
+}
+#coffee {
+    display:flex;
+    flex-flow: row;
+}
+a {
+    color: white;
+}
+a:hover {
+    color:darkorange;
+}
+.offering {
+    margin:auto;
+    height:auto;
+    max-width: 100%;
+}
+#origin {
+    text-align: center;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    margin:auto;
+}
+#socials {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content:space-around;
+    align-content:flex-start;
+    padding-right:10%;
+    padding-left:10%;
+}
+.sample {
+    background-color: rgb(27, 27, 27);
+    max-width: 25%;
+}
