@@ -17,13 +17,9 @@ h2 {
 }
 #headline {
     text-align: center;
-    font-size:9ex;
+    font-size:10vw;
     margin: auto;
     max-width: 100%;
-}
-#coffee {
-    display:flex;
-    flex-flow: row;
 }
 a {
     color: white;
@@ -55,14 +51,19 @@ footer {
     flex-direction: column;
     margin: auto;
 }
+.section {
+    margin: 10%;
+}
 .about {
     display: flex;
     flex-direction: row;
     max-width: 100%;
-    justify-content:space-around;
-    align-content:flex-start;
-    padding-right:10%;
-    padding-left:10%;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+.about img {
+    height: 20vw;
 }
 .sample {
     background-color: rgb(27, 27, 27);
