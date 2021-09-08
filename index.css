@@ -53,6 +53,10 @@ footer {
 }
 .section {
     margin: 10%;
+    font-size: 2.5vw;
+}
+.section h2 {
+    font-size: 4vw;
 }
 .about {
     display: flex;
@@ -62,10 +66,58 @@ footer {
     align-items: center;
     width: 100%;
 }
+#payment {
+    justify-content: start;
+    font-size: 2vw;
+}
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    outline:none;
+}
+.modal {
+    display: none; /* hide image */
+    position: fixed; /* hold image in place */
+    z-index: 1;
+    padding-top: 10%;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    background-color:black;
+}
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.qr {
+    height: 100px;
+    width: auto;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+#payment img {
+    height: auto;
+    width: 6vw;
+}
 .about img {
     height: 20vw;
 }
 .sample {
     background-color: rgb(27, 27, 27);
     max-width: 25%;
+}
+footer {
+     font-size: 2vw;
+     text-align: center;
+     justify-content: space-between;
 }
