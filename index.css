@@ -95,10 +95,6 @@ button {
     justify-content: center;
     align-items: center;
 }
-.qr {
-    height: 100px;
-    width: auto;
-}
 .close {
     color: #aaa;
     float: right;
