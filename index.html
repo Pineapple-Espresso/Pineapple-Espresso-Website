@@ -1,124 +1,21 @@
 <!DOCTYPE HTML>
-<html>
-    <head>
-       <link href="/index.css" rel="stylesheet">
-    </head>
-    <body>
-        <header id="top banner">
-            <img id="logo" src="/images/PELogo2-2.svg" alt="Pineapple Espresso Logo">
-        </header>
-        <div id="headline">
-            <p><strong>Enter a premium curated cannabis and coffee experience.</strong></p>
-        </div>
-        <div id="description" class="section">
-            <h2 id="about-pe">Who We Are</h2>
-                <div class="about">
-                    <p>A flagship cannabis cafe located in Metro Detroit, we seek to create the ultimate consumption lounge experience with a specialty cafe menu at the heart.  We work closely alongside our coffee and cannabis partner businesses to provide the utlimate sensory experience in a welcoming and clean environment.</p>
-                </div>
-        </div>
-        <div id="offerings" class="section">
-            <h2 id="current-offerings">Current Offerings</h2>
-            <div class="scroll">
-                <div class="coffee">
-                    <img src="/images/leafbean-v2.svg" alt='placeholder'>
-                    <h3 id="origin">Origin: Colombia</h3>
-                    <p id="varietal">Varietal: Pink Bourbon</p>
-                    <p id="current-stock">Process: Washed</p>
-                    <p id="tasting">Tasting Notes: bright acidity, clean body</p>
-                    <p id="current-stock">Current Stock: 1lb</p>
-                </div>
-                <div class="coffee">
-                    <img src="images/leafbean-v2.svg" alt='placeholder'>
-                    <h3 id="origin">Origin: Nicaragua San Salvador</h3>
-                    <p id="varietal">Varietal: Java Cultivar</p>
-                    <p id="process">Process: Washed</p>
-                    <p id="tasting">Tasting Notes: zesty citrus, floral, light</p>
-                    <p id="current-stock">Current Stock: 2lbs</p>
-                </div>
-                <div class="coffee">
-                    <img src="images/leafbean-v2.svg" alt='placeholder'>
-                    <h3 id="origin">Origin: Ethiopia Refisa</h3>
-                    <p id="varietal">Varietal: Heirloom</p>
-                    <p id="process">Process: Dry</p>
-                    <p id="tasting">Tasting Notes: dried fruit, syrupy</p>
-                    <p id="current-stock">Current Stock: 5lbs</p>            
-                </div>
-                <div class="coffee">
-                    <img src="images/leafbean-v2.svg" alt='placeholder'>
-                    <h3 id="origin">Origin: Uganda Budadiri</h3>
-                    <p id="varietal">Varietal: Bourbon</p>
-                    <p id="process">Process: Washed</p>
-                    <p id="tasting">Tasting Notes: dark chocolate, heavy-bodied</p>
-                    <p id="current-stock">Current Stock: 5lbs</p>
-                </div>
-            </div>
-        </div>
-        <div id="mission" class="section">
-            <h2>Our Mission</h2>
-                <div class="about"> 
-                    <ul>
-                        <li>Highlight the unique synergy between coffee and cannabis varieties</li>
-                        <li>Provide a welcoming and secure space to gather</li>
-                        <li>Never compromise quality</li>
-                        <li>Explore new heights of flavor</li>
-                        <li>Become a destination for the community we serve in</li>
-                    </ul>
-                </div>
-        </div>
-        <div id="goal" class="section">   
-            <h2>Launch Goal</h2>
-            <div class="about">
-                <p>As we continue to grow towards our first full location launch, you can get involved in our early stages.  Help us to achieve our funding goal by using the donation buttons below.</p>
-            </div>
-            <div id="payment" class="about">
-                <button onclick="document.getElementById('algo-qr').style.display='block'" class='modal-button'>
-                    <img src="images/algo_logo.png" alt="algorand logo">
-                </button>
-                <p>Algorand</p>
-                <div class="modal" id="algo-qr">
-                    <div class="modal-content">
-                        <img src="images/algo_qr.png"alt="algorand qr code" style="height:30vh;width:auto;">
-                        <p id="algo-address">25HQEUK5EVFLXOEOCRSSFEOLVABMBUXV35NHPORX56KIJP7CGAI6KM6N4</p>
-                        <button class="close" onclick="document.getElementById('algo-qr').style.display='none'">close</button>
-                    </div>
-                </div>
-            </div>
-            <div id="payment" class="about">
-                <button onclick="document.getElementById('venmo-qr').style.display='block'" class='modal-button'>
-                    <img src="images/venmo_logo.png" alt="venmo logo">
-                </button>
-                <p>Venmo</p>
-                <div class="modal" id="venmo-qr">  
-                    <div class="modal-content">
-                        <img src="images/venmo_qr.png" alt="venmo qr code" class="qr" style="height:30vh;width:auto;">
-                        <p id="venmo-address">@Pineapple-Espresso</p>
-                        <button class="close" onclick="document.getElementById('venmo-qr').style.display='none'">close</button>
-                    </div>
-                </div>
-            </div>
-            <div class='about' id='payment'>
-                <a class="donate-with-crypto"
-                    href="https://commerce.coinbase.com/checkout/1db23e57-c418-4312-adc7-86b5c6451358">
-                    Donate with Coinbase
-                </a>
-                <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807">
-                </script>
-            </div>
-        </div>
-        <div id="support" class="section">
-            <h2>Where to Cop?</h2>
-                <div class='about'>
-                    <p>If you are interested in trying some of our coffee, please reach out by email and we can hook you up.  Under the <a href='https://www.michigan.gov/mdard/0,4610,7-125-50772_45851-240577--,00.html'>Michigan Cottage Foods Law PA 113 of 2010</a>, all sales of our coffee must be made in person.  In the future, we hope to be able to provide a more convenient experience.</p>
-                </div>
-        </div>
-        <footer>
-            <div id="socials">
-                <p><a id="instagram" href='https://www.instagram.com/pineapple_espresso_cafe/'>Instagram</a></p>
-                <p><a id="Twitter" href='https://twitter.com/PineappleEspCaf'>Twitter</a></p>
-            </div>
-            <div id="contact">
-                <p id="email">PineappleEspressoCo@gmail.com</p>
-            </div>
-        </footer>
-    </body>
+<head>
+    <title>Pineapple Espresso Cafe</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Detroit, Coffee, Cafe, Roaster, Cannabis, Weed, Marijuana, Consumption Lounge">
+    <meta name="description" content="Michigan's Premier Cannabis Cafe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <base href="Pineapple-Espresso.github.io" target="_self">
+</head>
+<body>
+    <header>
+        <img src="images/PELogo2-2.svg" alt="Pineapple Espresso Logo" id="logo" class>
+        <p><strong>Enter a premium curated cannabis and coffee experience.</strong></p>
+    </header>
+    <div>
+        
+    </div>
+</body>
 </html>
