@@ -58,6 +58,15 @@ footer {
     justify-content: space-between;
     align-items: left;
 }
+.scroll {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin: 2%;
+    width: 100%;
+    overflow:scroll;
+}
 .section h2 {
     font-size: 4vw;
 }
@@ -67,7 +76,6 @@ footer {
     justify-content:space-between;
     align-items: center;
     margin: 2%;
-    overflow: scroll;
     width: 100%;
 }
 #payment {
@@ -110,6 +118,10 @@ button {
     width: 6vw;
 }
 .about img {
+    height: 15vw;
+    width: 50vw;
+}
+.scroll img {
     height: 15vw;
     width: 50vw;
 }
