@@ -3,7 +3,7 @@
         <title>Pineapple Espresso Cafe</title>
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Code Pro">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lado">
         <meta charset="UTF-8">
         <meta name="keywords" content="Detroit, Coffee, Cafe, Roaster, Cannabis, Weed, Marijuana, Consumption Lounge">
         <meta name="description" content="Michigan's Premier Cannabis Cafe">
@@ -30,87 +30,74 @@
         </div>
     </div>
     <br>
-        <!--CURRENT OFFERINGS SECTION-->
-        <div class="container"> 
-            <div id="coffees" class="carousel carousel-dark carousel-fade slide" data-bs-ride="carousel">
-                <div class="carousel-inner"> 
-                    <div class="carousel-item">  
+    <!--CURRENT OFFERINGS SECTION-->
+    <div class="container text-justify" id="offerings">
+        <h2 id="offerings">Current Offerings</h2>
+        <div class="container" id="offerings">
+            <div class="accordion accordion-flush w-100">
+                <div class="accordion-item">
+                    <button class="accordion-button w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         <div class="card" id="coffee">
                             <img src="images/leafbean-v2.svg" class="card-img-top" id="card-logo">
                             <div class="card-body">
-                                <h3 class="card-title text-center">Colombia</h3>
-                                <p class="card-text" id="varietal">Varietal: Pink Bourbon</p>
-                                <p class="card-text" id="process">Process: Washed</p>
-                                <p class="card-text" id="taste">Tasting Notes: bright acidity, clean body</p>
-                                <p class="card-text" id="stock">Current Stock: 1lb</p>
-                            </div>
-                        </div> 
-                    </div>                
-                    <div class="carousel-item active">
-                        <div class="card" id="coffee">
-                            <img src="images/leafbean-v2.svg" class="card-img-top" id="card-logo">
-                            <div class="card-body">
-                                <h3 class="card-title text-center">Nicaragua San Salvidor</h3>
-                                <p class="card-text" id="varietal">Varietal: Java Cultivar</p>
-                                <p class="card-text" id="process">Process: Washed</p>
-                                <p class="card-text" id="taste">Tasting Notes: zesty citrus, floral, light</p>
-                                <p class="card-text" id="stock">Current Stock: 2 lbs.</p>
-                            </div> 
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card" id="coffee">
-                            <img src="images/leafbean-v2.svg" class="card-img-top" id="card-logo">
-                            <div class="card-body">
-                                <h3 class="card-title text-center">Ethiopia Refisa</h3>
+                                <h3 class="card-title text-center">Ethiopia Dari Kidame</h3>
                                 <p class="card-text" id="varietal">Varietal: Heirloom</p>
                                 <p class="card-text" id="process">Process: Dry</p>
-                                <p class="card-text" id="taste">Tasting Notes: dried fruit, syrupy</p>
-                                <p class="card-text" id="stock">Current Stock: 5 lbs.</p>
+                                <p class="card-text" id="taste">Tasting Notes: Date sugar, orange marmalade, mango, and aromatic cedar</p>
+                                <p class="card-text" id="stock">Current Stock: 10 lbs.</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                </svg>
                             </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card" id="coffee">
-                            <img src="images/leafbean-v2.svg" class="card-img-top" id="card-logo">
-                            <div class="card-body">
-                                <h3 class="card-title text-center">Uganda Budadiri</h3>
-                                <p class="card-text" id="varietal">Varietal: Bourbon</p>
-                                <p class="card-text" id="process">Process: Washed</p>
-                                <p class="card-text" id="taste">Tasting Notes: dark chocolate, heavy-bodied</p>
-                                <p class="card-text" id="stock">Current Stock: 5 lbs.</p>
-                            </div>
-                        </div>
-                    </div>                    
+                    </button>   
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#coffees" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#coffees" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                </button>   
-            </div>  
-        </div>     
-        <br>   
-        <!--MISSION SECTION-->
-        <div class="container text-justify" id="mission">
-            <h2>Our Mission</h2>
-            <div class="about"> 
-                <ul>
-                    <li>Highlight the unique synergy between coffee and cannabis varieties</li>
-                    <li>Provide a welcoming and secure space to gather</li>
-                    <li>Never compromise quality</li>
-                    <li>Explore new heights of flavor</li>
-                    <li>Become a destination for the community we serve in</li>
-                </ul>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body bg-light">
+                    <div class="container text-dark">
+                        <div class="row">
+                                <div class="col">
+                                <img src="images/dari_kidame.png" class="img-thumbnail">
+                                <p>Source: Sweet Marias</p>
+                                </div>
+                                <div class="col text-left">
+                                    <h3 class="text-center">Pairs Well With</h3>
+                                    <p id="strain">Strain: Pineapple Express</p>
+                                    <p id="type">Type: Hybrid</p>
+                                    <p id="aroma">Aroma: Pineapple, Sweet, Tropical</p>
+                                    <p id="effects">Effects: Happy, Uplifted, Energetic</p>
+                                    <img src="https://images.leafly.com/flower-images/pineapple-express.png?auto=compress,format&amp;h=350&amp;w=748&amp;dpr=2 2x" class="img-fluid" alt="Picture of Pineapple Express" />
+                                    <p>Source: Leafly</p>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
             </div>
+        </div>      
+    </div>  
+    <br> 
+    <!--MISSION SECTION-->
+    <div class="container text-justify" id="mission">
+        <h2>Our Mission</h2>
+        <div class="about"> 
+            <ul>
+                <li>Highlight the unique synergy between coffee and cannabis varieties</li>
+                <li>Provide a welcoming and secure space to gather</li>
+                <li>Never compromise quality</li>
+                <li>Explore new heights of flavor</li>
+                <li>Become a destination for the community we serve in</li>
+            </ul>
         </div>
+    </div>
         <br>
         <!--ADD IN DONATION AND PAYMENT BUTTONS HERE-->
         <!--HOW TO BUY SECTION-->
         <div class="container">
-            <h2>Where to Cop?</h2>
+            <h2>How to Buy?</h2>
             <p>If you are interested in trying some of our coffee, please reach out by email and we can hook you up.  Under the <a href='https://www.michigan.gov/mdard/0,4610,7-125-50772_45851-240577--,00.html'>Michigan Cottage Foods Law PA 113 of 2010</a>, all sales of our coffee must be made in person.  In the future, we hope to be able to provide a more convenient experience.</p>
+            <br>
+            <p>Alternatively, fill out this <a href="https://forms.gle/V2mwXS9MWBSfv4Lg7">form</a> with your contact info and order details.</p>
         </div>
         <!--CONTACT LINKS-->
         <footer class="container">
